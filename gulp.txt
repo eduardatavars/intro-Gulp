@@ -1,0 +1,23 @@
+* Prompet 
+
+npm install --global gulp-cli
+
+
+* VSCODE
+
+package.js > "gulp": "gulp",
+
+npm init
+
+npm install --save-dev gulp
+
+
+*Instalando PLUGINS
+
+npm install --save-dev gulp-sass
+npm install --save-dev sass
+
+npm run gulp sass
+
+npm install --save-dev gulp-sourcemaps
+npm run gulp watch
