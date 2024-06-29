@@ -12,7 +12,7 @@ npm init
 npm install --save-dev gulp
 
 
-*Instalando PLUGINS
+*Instalando PLUGINS SASS
 
 npm install --save-dev gulp-sass
 npm install --save-dev sass
@@ -21,3 +21,19 @@ npm run gulp sass
 
 npm install --save-dev gulp-sourcemaps
 npm run gulp watch
+
+*Instalando PLUGINS js
+
+npm install --save-dev gulp-uglify
+npm run gulp javascript
+
+*Instalando PLUGINS Obfuscate
+
+npm install --save-dev gulp-obfuscate
+
+*Instalando PLUGINS IMAGEMIN
+
+npm install --save-dev gulp-imagemin
+npm install --save-dev gulp-imagemin@7.1.0
+npm install --save-dev gulp@4.0.2
+npm run gulp images
